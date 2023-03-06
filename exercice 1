@@ -1,0 +1,35 @@
+Question 1
+vertice est de type int et a pour valeur 6.
+Le mode public donne accer a tout le monde a l'att ou metode.
+Le mode privat ne rend l'acces posible qu'a l'objet qui est proprietaire de cett valeur ou metode.
+le mode protected rend l'acces posible a l'objet qui est proprietaire de cett valeur ou metode ansi qu'a tout ces enfants.
+
+question 2
+La syntax extends est celle qui permet le lien.
+question 3
+vertice est de type int et a pour valeur 4.
+edge1 est de type float et a pour valeur 25.
+edge2 est de type float et a pour valeur 63.5.
+je constat que l'att vetice apparet egalement d	ns l'affichage du rect.
+rect1 a bien une instance de Shape.
+l’instruction : parent::__construct(4); correspond a l'appel du constructeur de Shapr (le parent).
+ci cette instruction n'est pas presente la valeur de vertice n'est pas def.
+l'ordre n'a pas d'importance.
+
+question 4
+l’instruction : parent::print(); affiche les elt relaif au parent de l'objet.
+ci elle n'est pas present seul les elt relatif a l'objet serons afficher .
+L'ordre des instruction a de l'imporance, ci l'on change cette ligne de place on change la place de l'affichage.
+
+On pourait remplacer cette ligne pas ce qu'il y a dans la metode printe du parent car les att sont en protected ce qui ne bloque pas leur acces
+
+question 5
+vertice est de type int et a pour valeur 4.
+edge1 est de type float et a pour valeur 14.
+edge2 est de type float et a pour valeur 14.
+carre est une instance de rectangle et une instance de shape.
+l’instruction parent::__construct($a1,$a1); corespond a l'apper du constructeur de rectangle.
+il est possible d'appeler le constructeur de la classe Shape.
+
+question 6
+il est possible de redeffinire a l'aide du polymorphisme c'est a dire redefinire la fonction uniquement pour les instance de l'objet Square avec le meme nom.
