@@ -5,15 +5,6 @@ require_once "Shape.php";
 require_once "Rectangle.php";
 require_once "Square.php";
 
-//fonction d'autre ex
-function decodeBooleen(bool $boul): string
-{
-    $rep = "Faux";
-    if ($boul)
-        $rep = "Vrai";
-    return $rep;
-}
-
 // Question 1
 echo "\n question 1 \n";
 $figure1 = new Shape(6);
