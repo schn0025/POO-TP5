@@ -1,0 +1,49 @@
+Search.appendIndex(
+    [
+                {
+            "fqsen": "\\Rectangle",
+            "name": "Rectangle",
+            "summary": "",
+            "url": "classes/Rectangle.html"
+        },                {
+            "fqsen": "\\Rectangle\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "__construct\u0020est\u0020le\u0020constructeur\u0020de\u0020rectangle,\u0020il\u0020initialiser\u0020edge1\u0020a\u0020a1\u0020et\u0020edge2\u0020a\u0020a2\nil\u0020deffinit\u0020egalement\u0020le\u0020parent\u0020du\u0020nouveau\u0020rectangle.",
+            "url": "classes/Rectangle.html#method___construct"
+        },                {
+            "fqsen": "\\Rectangle\u003A\u003Aprint\u0028\u0029",
+            "name": "print",
+            "summary": "print\u0020permet\u0020d\u0027afficher\u0020les\u0020info\u0020du\u0020rectangle\u0020sous\u0020la\u0020forme\u0020de\u0020string\nlorce\u0020qu\u0027il\u0020est\u0020utiliser\u0020en\u0020character",
+            "url": "classes/Rectangle.html#method_print"
+        },                {
+            "fqsen": "\\Shape",
+            "name": "Shape",
+            "summary": "",
+            "url": "classes/Shape.html"
+        },                {
+            "fqsen": "\\Shape\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "__construct\u0020est\u0020le\u0020constructeur\u0020des\u0020formes,\u0020il\u0020initialiser\u0020le\u0020nombre\u0020de\u0020vertices\u0020au\u0020nombre\u0020de\u0020sommets\npasser\u0020en\u0020parametre",
+            "url": "classes/Shape.html#method___construct"
+        },                {
+            "fqsen": "\\Shape\u003A\u003Aprint\u0028\u0029",
+            "name": "print",
+            "summary": "print\u0020permet\u0020d\u0027afficher\u0020les\u0020info\u0020de\u0020la\u0020figure\u0020sous\u0020la\u0020forme\u0020de\u0020string\nlorce\u0020qu\u0027elle\u0020est\u0020utiliser\u0020en\u0020character",
+            "url": "classes/Shape.html#method_print"
+        },                {
+            "fqsen": "\\Square",
+            "name": "Square",
+            "summary": "",
+            "url": "classes/Square.html"
+        },                {
+            "fqsen": "\\Square\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "__construct\u0020est\u0020le\u0020constructeur\u0020de\u0020square,\u0020il\u0020permet\u0020initialiser\u0020un\u0020square\u0020en\u0020definisant\u0020la\u0020longeur\u0020de\u0020ces\u0020cote\na\u0020a1.\u0020il\u0020deffinit\u0020aussi\u0020son\u0020parent.",
+            "url": "classes/Square.html#method___construct"
+        },                {
+            "fqsen": "\\",
+            "name": "\\",
+            "summary": "",
+            "url": "namespaces/default.html"
+        }            ]
+);
