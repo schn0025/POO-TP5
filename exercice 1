@@ -33,3 +33,7 @@ il est possible d'appeler le constructeur de la classe Shape.
 
 question 6
 il est possible de redeffinire a l'aide du polymorphisme c'est a dire redefinire la fonction uniquement pour les instance de l'objet Square avec le meme nom.
+
+question 11
+non car tou les att sont de type natif
+

@@ -41,6 +41,71 @@ Search.appendIndex(
             "summary": "__construct\u0020est\u0020le\u0020constructeur\u0020de\u0020square,\u0020il\u0020permet\u0020initialiser\u0020un\u0020square\u0020en\u0020definisant\u0020la\u0020longeur\u0020de\u0020ces\u0020cote\na\u0020a1.\u0020il\u0020deffinit\u0020aussi\u0020son\u0020parent.",
             "url": "classes/Square.html#method___construct"
         },                {
+            "fqsen": "\\apartement",
+            "name": "apartement",
+            "summary": "",
+            "url": "classes/apartement.html"
+        },                {
+            "fqsen": "\\apartement\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "__construct\u0020initialise\u0020l\u0027objet\u0020Lodgement\u0020en\u0020passent\u0020les\u0020valeur\u0020de\nsur\u0020a\u0020surface,\u0020type\u0020a\u0020type\u0020et\u0020prixM\u0020a\u0020meterPrice\u0020puis\ninitialise\u0020l\u0027objet\u0020apartement\u0020en\u0020passent\u0020la\u0020valeur\u0020de\u0020floor\u0020a\u0020celle\u0020passer\u0020en\u0020parametre\nainsi\u0020que\u0020la\u0020valeur\u0020de\u0020lift\u0020a\u0020celle\u0020passez\u0020en\u0020para",
+            "url": "classes/apartement.html#method___construct"
+        },                {
+            "fqsen": "\\apartement\u003A\u003A__toString\u0028\u0029",
+            "name": "__toString",
+            "summary": "__toString\u0020permet\u0020l\u0027afichage\u0020en\u0020chaine\u0020de\u0020caractere\u0020ci\u0020il\u0020doit\u0020etre\u0020interpreter\u0020en\u0020tent\u0020que\u0020tel",
+            "url": "classes/apartement.html#method___toString"
+        },                {
+            "fqsen": "\\apartement\u003A\u003AgetPrice\u0028\u0029",
+            "name": "getPrice",
+            "summary": "getPrice\u0020permet\u0020de\u0020conetre\u0020le\u0020prix\u0020d\u0027un\u0020logement,\u0020return\u0020ce\u0020prix",
+            "url": "classes/apartement.html#method_getPrice"
+        },                {
+            "fqsen": "\\House",
+            "name": "House",
+            "summary": "",
+            "url": "classes/House.html"
+        },                {
+            "fqsen": "\\House\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "__construct\u0020initialise\u0020l\u0027objet\u0020Lodgement\u0020en\u0020passent\u0020les\u0020valeur\u0020de\nsur\u0020a\u0020surface,\u0020type\u0020a\u0020type\u0020et\u0020prixM\u0020a\u0020meterPrice\u0020puis\ninitialise\u0020l\u0027objet\u0020House\u0020en\u0020passent\u0020la\u0020valeur\u0020de\u0020\u0024gardenArea\u0020a\u0020celle\u0020de\n\u0024gard\u0020passer\u0020en\u0020para",
+            "url": "classes/House.html#method___construct"
+        },                {
+            "fqsen": "\\House\u003A\u003AgetPrice\u0028\u0029",
+            "name": "getPrice",
+            "summary": "getPrice\u0020permet\u0020de\u0020conetre\u0020le\u0020prix\u0020d\u0027un\u0020logement,\u0020return\u0020ce\u0020prix",
+            "url": "classes/House.html#method_getPrice"
+        },                {
+            "fqsen": "\\Lodgement",
+            "name": "Lodgement",
+            "summary": "",
+            "url": "classes/Lodgement.html"
+        },                {
+            "fqsen": "\\Lodgement\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "__construct\u0020initialise\u0020l\u0027objet\u0020Lodgement\u0020en\u0020passent\u0020les\u0020valeur\u0020de\nsur\u0020a\u0020surface,\u0020type\u0020a\u0020type\u0020et\u0020prixM\u0020a\u0020meterPrice",
+            "url": "classes/Lodgement.html#method___construct"
+        },                {
+            "fqsen": "\\Lodgement\u003A\u003AgetPrixM2\u0028\u0029",
+            "name": "getPrixM2",
+            "summary": "getPrixM2\u0020est\u0020un\u0020acceseur\u0020de\u0020l\u0027attribut\u0020meterPrice,\u0020il\u0020permet\u0020d\u0027avoir\u0020acces\u0020en\u0020lectur\u0020a\u0020ce\u0020dernier",
+            "url": "classes/Lodgement.html#method_getPrixM2"
+        },                {
+            "fqsen": "\\Lodgement\u003A\u003AsetPrixM2\u0028\u0029",
+            "name": "setPrixM2",
+            "summary": "setPrixM2\u0020est\u0020un\u0020modificateur\u0020de\u0020meterPrice,\u0020il\u0020permet\u0020de\u0020donner\u0020une\u0020noivel\u0020valeur\nnewPrix\u0020a\u0020meterPrice",
+            "url": "classes/Lodgement.html#method_setPrixM2"
+        },                {
+            "fqsen": "\\Lodgement\u003A\u003A__toString\u0028\u0029",
+            "name": "__toString",
+            "summary": "__toString\u0020permet\u0020l\u0027afichage\u0020en\u0020chaine\u0020de\u0020caractere\u0020ci\u0020il\u0020doit\u0020etre\u0020interpreter\u0020en\u0020tent\u0020que\u0020tel",
+            "url": "classes/Lodgement.html#method___toString"
+        },                {
+            "fqsen": "\\Lodgement\u003A\u003AgetPrice\u0028\u0029",
+            "name": "getPrice",
+            "summary": "getPrice\u0020permet\u0020de\u0020conetre\u0020le\u0020prix\u0020d\u0027un\u0020logement,\u0020return\u0020ce\u0020prix",
+            "url": "classes/Lodgement.html#method_getPrice"
+        },                {
             "fqsen": "\\",
             "name": "\\",
             "summary": "",
