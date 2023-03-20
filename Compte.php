@@ -22,6 +22,8 @@ class Compte{
     }
     /**
      * getSolde est un acceseeur de Slode, il renvoi la valeur de Solde du compte
+     * 
+     * @return float retourn la valeur du solde
      */
     public function getSolde(): float{
         return $this->solde;
@@ -54,5 +56,21 @@ class Compte{
     public function effectuerDepot(float $montant){
         $this->solde += $montant;
         echo "\n$this->numero \nDepot \n$montant \n" ;
+    }
+    /**
+     * effectuerVirement permet de retirer de l'argent du compt appellanbt et de l'ajouter
+     * au compte passer en parametre
+     *
+     * @param Compte $compte compte ou le virmet arrive
+     * @param float $mont montant du virement 
+     * @return boolean True si le virement a ete efectuer false sinon
+     */
+    public function effectuerVirement(Compte $compte, float $mont):bool{
+        $rep = False;
+        if($this->effectuerRetrait($mont)){
+            $rep = True;
+            $compte->effectuerDepot($mont);
+        }
+        return $rep;
     }
 }

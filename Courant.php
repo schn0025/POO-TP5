@@ -50,7 +50,7 @@ class Courant extends Compte{
      * @return boolean vrais si le retrait est passer false sinon
      */
     public function effectuerRetrait(float $val): bool{
-        if(parent::getSolde() - $val > $this->decouvert){
+        if(parent::getSolde() - $val >= $this->decouvert){
             parent::effectuerRetrait($val);
             $effect = True;
         }
